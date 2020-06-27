@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap");
+body {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/site_image.jpg) no-repeat center center fixed;
+  -webkit-background : cover;
+  -moz-background : cover;
+  -o-background : cover;
+  background-size : cover;
+
+}
 .App {
   text-align: center;
   background-image: url(/images/site_image.jpg);
