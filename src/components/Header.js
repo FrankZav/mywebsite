@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
         zIndex: 1,
     }
 }));
+
 const Header = () => {
     const classes = useStyles();
     return (
@@ -41,11 +42,11 @@ const Header = () => {
                 <Avatar className={classes.avatar} src={avatar} alt="" />
             </Grid>
             <Typography className={classes.title} variant="h4">
-                <Typed strings={["Francisco Zavalza"]} typeSpeed={40}/>
+                <Typed strings={["Francisco Zavalza"]} showCursor={false} typeSpeed={40}/>
             </Typography>
             <br/>
             <Typography className={classes.subtitle} variant="h5">
-                <Typed strings={["Web Development"]} typeSpeed={40} />
+                <Typed strings={["Web Development"]} showCursor={false} typeSpeed={40} />
             </Typography>
             <br />
             <Typography className={classes.subtitle} variant="h5">
